@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Árbol de Nodos Simplificado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Arbol de Nodos</h1>
+        <div id="tree-container" class="tree-container"></div>
+
+        <div class="crud-operations">
+            <h2>Resultados</h2>
+            <input type="text" id="nodeValue" placeholder="Valor del Nodo" />
+
+            <div class="form-group">
+                <button class="btn" onclick="addNode()">Agregar Nodo</button>
+                <button class="btn" onclick="removeNode()">Eliminar Nodo</button>
+                <button class="btn" onclick="updateNode()">Actualizar Nodo</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/tree.js"></script>
+    <script src="scripts/crud.js"></script>
+</body>
+</html>
